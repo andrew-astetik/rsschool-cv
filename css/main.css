@@ -29,15 +29,17 @@
 .font-sfr {
 	font-family: 'SFR';
 }
+.text-orrange {
+	color: #faa307;
+}
+.border-orrange {
+	border: 5px outset #faa307;
+}
 
 .header {
 	border-bottom: 10px solid #faa307;
 	background: rgb(39,39,39);
 	background: linear-gradient(0deg, rgba(39,39,39,1) 32%, rgba(67,67,67,1) 100%);
-
-}
-.text-orrange {
-	color: #faa307;
 }
 .usr-icon {
 	border: 5px outset #faa307;
@@ -50,4 +52,62 @@ li.skill {
 	display: inline-block;
 	background: rgba(250, 163, 7, 0.1);
 	color: #faa307;
+}
+
+
+.recent-project > img {
+	transition: .5s;
+}
+.recent-project:hover > img {
+	filter: grayscale(100%) brightness(50%) blur(5px);
+}
+.recent-projects {
+	border-bottom: 10px solid #faa307;
+	border-top: 10px solid #faa307;
+	background: rgb(39,39,39);
+	background: linear-gradient(0deg, rgba(39,39,39,1) 32%, rgba(67,67,67,1) 100%);
+}
+.recent-project > .description {
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	opacity: 0;
+	background: rgb(250,163,7);
+	background: linear-gradient(162deg, rgba(250,163,7,.75) 0%, rgba(255,233,194,.75) 100%);
+	transition: .5s;
+}
+.recent-project:hover > .description {
+	opacity: 1;
+}
+
+
+.code-example {
+	background: #1b1b1b;
+}
+
+.footer {
+	border-top: 10px solid #faa307;
+	background: rgb(39,39,39);
+	background: linear-gradient(0deg, rgba(39,39,39,1) 32%, rgba(67,67,67,1) 100%);
+}
+.rss-logo {
+	height: 2rem;
+	width: 6rem;
+	filter: invert(100%);
+}
+
+#to-top {
+	width: 3rem;
+	height: 3rem;
+	background: #faa307;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	right: 3rem;
+	bottom: 3rem;
+	cursor: pointer;
 }

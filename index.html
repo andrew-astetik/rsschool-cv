@@ -14,14 +14,41 @@
 		<title>CV | Andrew Galenko | Astetik</title>
 	</head>
 	<body class="bg-light text-dark">
-		<div class="container-fluid header py-4 text-light">
+		<div class="container-fluid header pb-4 text-light">
 			<div class="container">
-				<div class="row p-0 p-md-5 m-0 m-md-5">
+				<nav class="navbar navbar-expand-lg navbar-dark mb-4">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mx-auto">
+							<li class="nav-item active">
+								<a class="nav-link" href="#about">About me</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#skills">My skills</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#recent-projects">Recent projects</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#code-example">Code example</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
+				<div class="row p-0 p-md-5 m-0 m-md-5" id="#about">
 					<div class="col-12 col-md-9 my-auto text-center text-md-left">
-						<p class="h1 font-sfb mb-1 text-orrange">Andrew Galenko</p>
+						<h1 class="h1 font-sfb mb-1 text-orrange">Andrew Galenko</h1>
 						<p class="font-sfl">
-							Nothing) I’m very boring and lazy freelancer))<br>
+							I’m very boring and lazy freelancer))<br>
 							Ok, maybe I’m learning pretty fast and I realy like to automate everything
+						</p>
+						<p class="font-sfl">
+							<span class="font-sfb">English level:</span> pre-intermediate<br>
+							<span class="font-sfb">Education:</span> college
 						</p>
 						<div class="row m-0 p-0">
 							<div class="col-12 col-sm-6 p-0 pb-sm-3 text-center text-md-left">
@@ -39,14 +66,14 @@
 			</div>
 		</div>
 
-		<div class="container py-5 px-5">
+		<div class="container py-5 px-5" id="#skills">
 			<p class="font-sfb h1 text-center">My skills</p>
 			<div class="row text-center">
 				<div class="pt-5 col-12 col-md-6">
 					<p class="h4 font-sfb"><i class="fas fa-microchip mr-2"></i>TECHNOLOGIES</p>
 					<ul class="pt-3 px-0 px-4">
 						<li class="skill py-2 px-3 rounded-pill my-1">
-							JS (pure js, jQuery, node)
+							JS (pure js, jQuery, node js)
 						</li>
 						<li class="skill py-2 px-3 rounded-pill my-1">
 							pure PHP (5.6 - 7.4.2)
@@ -100,14 +127,87 @@
 			</div>
 		</div>
 
-		<div class="container py-5">
-			<p class="font-sfb h1 text-center">Code Example</p>
-			<div class="col-12 col-md-8 mx-auto p-4" style="border-radius: 10px;background: #1b1b1b;">
+		<div class="container-fluid recent-projects py-5 text-light" id="#recent-projects">
+			<div class="container">
+				<p class="font-sfb h1 text-center mb-0">Recent projects</p>
+				<p class="col-12 text-center">* Some projects may not be available, because I am not their owner</p>
+				<div class="row mt-5">
+					<div class="col-12 col-lg-6 recent-project pt-3 pr-3 pr-lg-2 mx-auto">
+						<a href="https://reso-volgogradka.ru/" target="_blank" class="d-block rounded-xl overflow-hidden border-orrange position-relative recent-project">
+							<div class="description position-absolute col-12 p-3 text-light">
+								<p class="m-0 font-sfb h4"><i class="far fa-phone-laptop"></i> Type:</p>
+								<p class="h5">Website</p>
+								<p class="m-0 font-sfb h4"><i class="far fa-clipboard-list-check"></i> Description:</p>
+								<p class="h5">Insurance agency website</p>
+								<p class="m-0 font-sfb h4"><i class="far fa-microchip"></i> Technologies:</p>
+								<p class="h5">HTML, CSS, Bootstrap, jQuery, PHP</p>
+							</div>
+							<img src="img/reso-prj.jpg" alt="img/reso-prj.jpg" class="col-12 p-0">
+						</a>
+					</div>
+					<div class="col-12 col-lg-6 pt-3 pl-3 pl-lg-2 mx-auto">
+						<a href="https://top-course.online" target="_blank" class="d-block rounded-xl overflow-hidden border-orrange position-relative recent-project">
+							<div class="description position-absolute col-12 p-3 text-light">
+								<p class="m-0 font-sfb h4"><i class="far fa-phone-laptop"></i> Type:</p>
+								<p class="h5">Website</p>
+								<p class="m-0 font-sfb h4"><i class="far fa-clipboard-list-check"></i> Description:</p>
+								<p class="h5">Website for the sale of training courses</p>
+								<p class="m-0 font-sfb h4"><i class="far fa-microchip"></i> Technologies:</p>
+								<p class="h5">HTML, CSS, Bootstrap, jQuery, PHP</p>
+							</div>
+							<img src="img/courses-prj.jpg" alt="img/courses-prj.jpg" class="col-12 p-0">
+						</a>
+					</div>
+					<div class="col-12 col-lg-6 recent-project pt-3 pr-3 pr-lg-2 mx-auto">
+						<a href="https://vk.com/app7926935" target="_blank" class="d-block rounded-xl overflow-hidden border-orrange position-relative recent-project">
+							<div class="description position-absolute col-12 p-3 text-light">
+								<p class="m-0 font-sfb h4"><i class="far fa-phone-laptop"></i> Type:</p>
+								<p class="h5">Mobile Web application</p>
+								<p class="m-0 font-sfb h4"><i class="far fa-clipboard-list-check"></i> Description:</p>
+								<p class="h5">A funny application that allows to find out the cost of a page in the social network VKontakte</p>
+								<p class="m-0 font-sfb h4"><i class="far fa-microchip"></i> Technologies:</p>
+								<p class="h5">React, HTML, CSS, Bootstrap, PHP</p>
+							</div>
+							<img src="img/vkpageprice-prj.jpg" alt="img/vkpageprice-prj.jpg" class="col-12 p-0">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="container py-5" id="#code-example">
+			<p class="font-sfb h1 text-center">Code example</p>
+			<div class="col-12 col-xl-8 mx-auto p-4 rounded-xl code-example mt-5">
 				<code style="color: #f5d67b;">
 					<span style="color: #5e7671;font-style: italic;">/* My solution from codewars */</span><br>
 					<span style="color: #ae85c9;">const </span><span>myLanguages </span><span style="color: #efefef;">= </span><span>r </span><span style="color: #efefef;">=> </span><span style="color: #ae85c9;">Object</span><span style="color: #efefef;">.</span><span style="color: #72e0d1;">keys</span><span style="color: #efefef;">(</span><span>r</span><span style="color: #efefef;">)</span><span style="color: #efefef;">.</span><span style="color: #72e0d1;">filter</span><span style="color: #efefef;">(</span><span>e </span><span style="color: #efefef;">=> </span><span>r</span><span style="color: #efefef;">[</span><span>e</span><span style="color: #efefef;">] </span><span style="color: #efefef;">>= </span><span>60</span><span style="color: #efefef;">)</span><span style="color: #efefef;">.</span><span style="color: #72e0d1;">sort</span><span style="color: #efefef;">((</span><span>a</span><span style="color: #efefef;">,</span><span>b</span><span style="color: #efefef;">)</span><span style="color: #efefef;"> =></span><span> r</span><span style="color: #efefef;">[</span><span>a</span><span style="color: #efefef;">]</span><span style="color: #efefef;"> ></span><span> r</span><span style="color: #efefef;">[</span><span>b</span><span style="color: #efefef;">]</span><span style="color: #efefef;"> ?</span><span> -1</span><span style="color: #efefef;"> :</span><span> 1</span><span style="color: #efefef;">)</span>
 				</code>
 			</div>
 		</div>
+
+		<div class="container-fluid footer py-5 text-light">
+			<div class="container">
+				<div class="row align-items-center">
+					<div class="d-flex px-3">
+						<div class="row">
+							<a href="https://github.com/andrew-astetik" target="_blank" class="d-flex mb-0 px-3 text-light">
+								<i class="mr-2 fab fa-github my-auto"></i> Github
+							</a>
+							<a href="https://t.me/astet_andrew" target="_blank" class="d-flex mb-0 px-3 text-light">
+								<i class="mr-2 fab fa-telegram my-auto"></i> Telegram
+							</a>
+						</div>
+					</div>
+					<div class="d-flex mx-auto">Create date: 21.09.2021</div>
+					<div class="d-flex h-100 ml-auto"><img src="img/rsschool.svg" class="rss-logo"></div>
+				</div>
+			</div>
+		</div>
+
+		<div class="rounded-circle" id="to-top" onclick="scrollToTop()">
+			<i class="fas fa-arrow-up h2 my-auto"></i>
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
