@@ -1,0 +1,53 @@
+@font-face {
+	font-family: 'SFR';
+	src: url('../font/SFR.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SFL';
+	src: url('../font/SFL.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'SFB';
+	src: url('../font/SFB.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+* {
+	font-family: 'SFR';
+}
+.font-sfl {
+	font-family: 'SFL';
+}
+.font-sfb {
+	font-family: 'SFB';
+}
+.font-sfr {
+	font-family: 'SFR';
+}
+
+.header {
+	border-bottom: 10px solid #faa307;
+	background: rgb(39,39,39);
+	background: linear-gradient(0deg, rgba(39,39,39,1) 32%, rgba(67,67,67,1) 100%);
+
+}
+.text-orrange {
+	color: #faa307;
+}
+.usr-icon {
+	border: 5px outset #faa307;
+}
+
+ul {
+	list-style-type: none;
+}
+li.skill {
+	display: inline-block;
+	background: rgba(250, 163, 7, 0.1);
+	color: #faa307;
+}
